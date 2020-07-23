@@ -1,16 +1,25 @@
 # Webpack Frontend Starterkit
 
+### Installation
+
+For Mac, install NodeJS with Homebrew. From the terminal command line:
+
+```
+brew install node
+```
+
+If you need to install Homebrew first:
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 
 ### Installation
 
+Navigate to the directory location in terminal, then run the command:
+
 ```
 npm install
-```
-
-### Start Dev Server
-
-```
-npm start
 ```
 
 ### Build Prod Version
