@@ -9,6 +9,7 @@ brew install node
 ```
 
 If you need to install Homebrew first:
+
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
