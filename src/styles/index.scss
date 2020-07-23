@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@import "custom-bootstrap";
+
+.navbar {
+  font-size: 0.9em;
+  &.navbar-dark {
+    background: #3A3A51;
+  }
+  .left {
+    display: flex;
+    background: #484866;
+  }
+  .right {
+    @media(max-width: 991px) {
+      display: none;
+    }
+  }
+  .navbar-brand {
+    background: url(https://release.functionize.com/views/images/logo/logo-small.png) no-repeat center;
+    text-indent: -9999px;
+    height: 100%;
+    width: 100px;
+    background-size: 32px;
+  }
+  .navbar-nav {
+    .nav-item {
+      &.active, &:hover {
+        background: #465376 0% 0% no-repeat padding-box;
+        box-shadow: inset 0em -0.25em #39B6FC;
+      }
+      .nav-link {
+        color: #D7E2FB;
+        padding-top: 10px;
+        @media (min-width: 992px) {
+          padding-right: 1rem;
+          padding-left: 1rem;
+        }
+
+        .badge {
+          transform: translate(0, -10px);
+        }
+      }
+      &.user {
+        background: #484866;
+
+        &.active, &:hover {
+          background: #484866;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
